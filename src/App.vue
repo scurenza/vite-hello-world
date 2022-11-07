@@ -5,7 +5,7 @@ import AppBanner from "./components/AppBanner.vue";
 export default {
   data() {
     return {
-      greeting: "Ciao mondo!"
+
     }
   },
   components: {
@@ -21,7 +21,7 @@ export default {
 </script>
 
 <template>
-  <h1>{{ AppTitle }}</h1>
+  
   <section>
     <AppTitle />
     <AppBanner />
@@ -31,6 +31,6 @@ export default {
 
 <style>
 h1 {
-  color: red;
+  color: orange;
 }
 </style>
