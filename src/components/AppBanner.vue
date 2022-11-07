@@ -11,7 +11,7 @@ export default {
             return new URL(`../assets/img/${this.imgNameVue}`, import.meta.url).href;
         },
         getImagePathVite() {
-            return new URL(`../assets/img/${this.imgNameVite}`, import.meta,url).href;
+            return new URL(`../assets/img/${this.imgNameVite}`, import.meta.url).href;
         }
     }
 }
